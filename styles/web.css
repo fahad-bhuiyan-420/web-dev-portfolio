@@ -46,7 +46,7 @@ nav li a{
     background-color: #FD6E0A;
     color: white;
     border: solid white;
-    padding: 18px 35px;
+    /* padding: 18px 35px; */
     width: 150px;
     height: 64px;
     border-radius: 5px;
@@ -59,7 +59,7 @@ nav li a{
     background-color: #FFF8F3 ;
     color: #FD6E0A;
     border: solid 1px #FD6E0A;
-    padding: 18px 35px;
+    /* padding: 18px 35px; */
     width: 150px;
     height: 64px;
     border-radius: 5px;
@@ -94,6 +94,7 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
 }
 .header {
     background-image: url(/images/developer.png), url(/images/header_bg.png);
@@ -231,6 +232,14 @@ footer textarea{
 footer button{
     background-color: #FD6E0A;
     display: block;
+}
+.des{
+    display:flex;
+    gap: 30px;
+}
+.banner-description{
+    width: 565px;
+    color: #757575;
 }
 /* footer input:hover{
     background-color: rgb(181, 181, 230);
